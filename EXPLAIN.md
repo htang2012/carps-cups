@@ -1,3 +1,5 @@
+https://itstuff.the-zabala.net/2014/07/linux-driver-for-canon-imageclass.html
+
 Linux Driver for Canon ImageClass MF3110/3112
 I recently stumbled upon a treasure trove while looking for ways to make my old Canon ImageClass MF3112 all-in-one laser printer work with the latest OS around.
 
@@ -12,16 +14,16 @@ After a day of two of digging around the Internet, and exploring the vast "Page 
 Since there's no HowTo wiki entry to use his codes, I opted to share what I did in order to use and install it (credits to ondrej-zary for the source code).
 
 Pre-work Requirements
-sudo rights (or root)
-gcc and compiler (e.g. make, build-essential) is installed
-cups, libcups2-dev, and libcupsimage2-dev is installed
+			sudo rights (or root)
+			gcc and compiler (e.g. make, build-essential) is installed
+			cups, libcups2-dev, and libcupsimage2-dev is installed
 even though it doesn't have the required drivers, I installed the UFR II Canon Linux Drivers because it seems that it is needed for the custom drivers to work
 The Steps
-Download ondrej-zary's carps-cups source code (there's a zip file download link present)
-Extract it on the desired work-area folder (temporary use; mine was inside my home folder)
-Using the terminal, go to the location of the unzipped folder and run "make" 
-$ cd ~/carps-cups-master 
-$ make 
+			Download ondrej-zary's carps-cups source code (there's a zip file download link present)
+			Extract it on the desired work-area folder (temporary use; mine was inside my home folder)
+			Using the terminal, go to the location of the unzipped folder and run "make" 
+			$ cd ~/carps-cups-master 
+			$ make 
 
 If there are errors of missing dependencies, you can try to use "apt-file search " to check which packages you need install before trying to make it.
 If things look fine and there's no error, proceed with "sudo make install" (or make install for root users);
