@@ -1,3 +1,5 @@
+https://itstuff.the-zabala.net/2014/07/linux-driver-for-canon-imageclass.html
+
 Linux Driver for Canon ImageClass MF3110/3112
 I recently stumbled upon a treasure trove while looking for ways to make my old Canon ImageClass MF3112 all-in-one laser printer work with the latest OS around.
 
